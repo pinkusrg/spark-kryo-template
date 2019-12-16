@@ -3,7 +3,7 @@
 A basic template of using Kryo serialization in spark jobs with an example provided which will help you to compare both the serialization libraries provided by the spark.
 ## Table of contents  
 1. [Getting Started](#Getting-Started)  
-2. [Configuring](#Configuring-Kryo-Serialization)
+2. [Configuring](#Configuring)
 3. [Running](#Running)  
 5. [Example](#Example-and-Results)  
   
@@ -61,4 +61,5 @@ Kryo Serialization :
 Java Serialization :
 
 ![Java Metrics](https://springflee.files.wordpress.com/2019/12/javametrics.png)
-So, if we look at the stats we can see that Kryo outperforms every time, you can run more jobs and analyze the result furthur.
+
+So, if we look at the stats we can see that Kryo outperforms every time, you can run more jobs and analyze the results furthur.
